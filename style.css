@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    height: 100vh;
+    display: flex;
+    width: auto;
+    justify-content: center;
+    align-items: center;
+    background: rgb(80, 167, 80);
+    text-align: center;
+    color: antiquewhite;
+}
+.game-body {
+    position: absolute;
+    /* top: 0px; */
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background: rgb(24, 22, 190);
+    color: white;
+}
+.game-winner {
+    position: absolute;
+    /* top: 0px; */
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    font-size: 2rem;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background: rgb(6, 51, 54);
+    color: white;
+}
+.sucess {
+    margin: 10px;
+}
+.user-guess {
+    padding: 10px 30px;
+    border-radius: 10px;
+    caret-color: blue;
+    border: 0;
+    margin: 15px;
+}
+.player--level {
+    position: absolute;
+    top: 5px;
+    right: 10px;
+    color: rgb(255, 0, 0);
+    font-size: 0.8rem;
+    background-color: rgb(177, 223, 230);
+    padding: 8px 20px;
+    border-radius: 10px;
+}
+.success {
+    padding: 10px;
+    font-size: 1.2rem;
+    color: rgb(0, 255, 255);
+}
+.mailWrong{
+    color: rgb(253, 246, 246);
+    font-size: 1.2em;
+    padding: 12px;
+    margin: 10px;
+    border-radius: 10px;
+    background: rgb(18, 21, 206);
+    animation: beats 1s infinite;
+    transition: .3s;
+}
+.mailWrong:hover {
+    animation: beats 1s infinite;
+    transition: .10s;
+}
+@keyframes beats {
+    0%{
+        transform: scale(1);
+    }
+    60% {
+        transform: scale(.9);
+        box-shadow: 10px 10px 0 rgba(35, 151, 122, 0.3);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
+button {
+    margin: 10px;
+    padding: 10px 30px;
+    border: 0;
+    border-radius: 8px;
+    color: rgb(233, 15, 15);
+    font-size: larger;
+    background-color: rgb(228, 241, 241);
+}
+.hidden {
+    display: none;
+}
