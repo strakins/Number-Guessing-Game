@@ -1,6 +1,6 @@
 # Number-Guessing-Game
 
-## This Project was developed with
+### This Project was developed with
  - HTML 5
  - CSS 3
  - Vanilla Javasript
