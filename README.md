@@ -8,7 +8,8 @@
 ## Developement Enviroment
 
  - Replit
+ - [Click Here to View CodeBase](https://replit.com/@BLESSING-SS1/Number-Guessing-Game#index.html)
  
- ### Link to Code Base
+ ### Live Link 
  
- ![Click here to See Live Project](https://number-guessing-game.blessing-ss1.repl.co)
+ [Click here to See Live Project](https://number-guessing-game.blessing-ss1.repl.co)
